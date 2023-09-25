@@ -1,0 +1,32 @@
+﻿<Admission>
+<student>
+  <sl>23</sl>
+  <name>John Carter</name>
+  <DOB>
+    <date>25</date>
+    <month>12</month>
+    <year>2015</year>
+  </DOB>
+</student>
+
+<student>
+    <sl>29</sl>
+    <name>Bob Marshal</name>
+    <DOB>
+    <date>13</date>
+    <month>01</month>
+    <year>1999</year>
+    </DOB>
+</student>
+
+<student>
+    <sl>35</sl>
+    <name>Clark Kent</name>
+    <DOB>
+    <date>17</date>
+    <month>06</month>
+    <year>2005</year>
+    </DOB>
+</student>
+
+</Admission>
