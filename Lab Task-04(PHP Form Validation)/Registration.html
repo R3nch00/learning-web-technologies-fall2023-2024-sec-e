@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Registration From</title>
+    </head>
+    <body>
+        <from method="post" action="" enctype="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>>
+        <fieldset>
+            <legend>REGISTRATION</legend>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name" value=""></td>
+                </tr>
+                <hr>
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" name="email" value=""></td>
+                </tr>
+                <hr>
+            </table>
+        </fieldset>         
+    </body>
+</html>
