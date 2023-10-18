@@ -5,7 +5,7 @@
     <body>
         <table border="1" align="center" width="600px" style="border-collapse: collapse; margin-top:20px ;">
             <tr>
-                <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="xCompany Logo" style="width: 80px" /><a href="PublicHome.php" style="width: 100px" style="margin: 40px">Home</a> | <a href="login.php">Login</a> | <a href="Registration.php">Registration</a></td>
+                <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="xCompany Logo" style="width: 80px" /><a href="PublicHome.php" style="width: 100px" style="margin: 40px">Home</a> | <a href="Login.php">Login</a> | <a href="Registration.php">Registration</a></td>
             </tr>
 
             <tr>
