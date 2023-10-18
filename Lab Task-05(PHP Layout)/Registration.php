@@ -5,11 +5,11 @@
     <body>
         <table border="1" align="center" width="600px" style="border-collapse: collapse; margin-top:20px ;">
             <tr>
-                <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="xCompany Logo" style="width: 80px" /><a href="home.php" style="width: 100px" style="margin: 40px">Home</a> | <a href="login.php">Login</a> | <a href="register.php">Registration</a></td>
+                <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="xCompany Logo" style="width: 80px" /><a href="PublicHome.php" style="width: 100px" style="margin: 40px">Home</a> | <a href="login.php">Login</a> | <a href="Registration.php">Registration</a></td>
             </tr>
 
             <tr>
-                <td style="padding: 80px"><form method="post" action="" enctype="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>
+                <td style="padding: 80px"><form method="post" action="" enctype="" <?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>>
                 <fieldset>
                     <legend>REGISTRATION</legend>
                     <table>
@@ -21,7 +21,7 @@
         
                         <tr>
                             <td>Email </td>
-                            <td>:</td>
+                            <td>:</td>    
                             <td><input type="email" name="email" value=""></td>
                         </tr>
                         <tr>
@@ -40,7 +40,45 @@
                             <td><input type="password" name="password"></td>
                         </tr>
                     </table>
+                    <hr>
+                        <table>
+                            <tr>
+                                <fieldset>
+                                    <legend>Gender</legend>
+                                    <input type="radio" name="gender" value="" /> Male
+                                    <input type="radio" name="gender" value= /> Female
+                                    <input type="radio" name="gender" value="" /> Other
+                                </fieldset>
+                            </tr>
 
+                            <tr>
+                                <fieldset>
+                                    <legend>Date of Birth</legend>
+                                    <input type="date" name="dob">
+                                </fieldset>
+                            </tr>
+                        </table>
+                        <hr>
+                                <input type="submit" name="btn" id="Submit">
+                                <input type="reset" id="Reset">
+                </fieldset>
+                            </form></td>
+            </tr>
+
+                        <tr align="center">
+                        <td>
+                            <footer style="margin: 10px">Copyright &copy; 2017</footer>
+                         </td>
+                        </tr>         
+            
         </table>
     </body>
 </html>
+
+
+
+<?php
+
+    session_start();
+   
+?>
