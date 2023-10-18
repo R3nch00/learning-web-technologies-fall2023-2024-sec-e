@@ -6,7 +6,7 @@
         <table border="2" width="600px" style="border-collapse: collapse; margin-top: 20px">
         
             <tr>
-            <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="X-company logo" style="width:100;"><a align="right" href="PublicHome.php">Home</a> | <a href="login.php">Login</a> | <a href="Registration.php">Registration</a></td>
+            <td><img src="C:/xampp/htdocs/companyX/X-company.png" alt="X-company logo" style="width:100;"><a align="right" href="PublicHome.php">Home</a> | <a href="Login.php">Login</a> | <a href="Registration.php">Registration</a></td>
         </tr>
 
         <tr>
