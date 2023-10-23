@@ -26,7 +26,7 @@
         
         <tr>
             <td style="padding: 80px;">
-                <form method="post" action="loginCheck.php" <?php echo htmlspecialchars($_SERVER[ "PHP_SELF"]);?>>
+                <form method="post" action="LoginCheck.php" <?php echo htmlspecialchars($_SERVER[ "PHP_SELF"]);?>>
                     <fieldset>
                         <legend>LOGIN</legend>
                         <table>
