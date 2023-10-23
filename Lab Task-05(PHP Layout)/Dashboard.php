@@ -14,7 +14,7 @@
                     <li><a href="#">Dashboard</a></li>
                     <li><a href="ViewProfile.php">View Profile</a></li>
                     <li><a href="EditProfile.php">Edit Profile</a></li>
-                    <li><a href="Changepfp.php">Change Profile Picture</a></li>
+                    <li><a href="ChangeProfiilePicture.php">Change Profile Picture</a></li>
                     <li><a href="ChangePass.php">Change Password</a></li>
                     <li><a href="Logout.php">Logout</a></li>
                 </ul>
