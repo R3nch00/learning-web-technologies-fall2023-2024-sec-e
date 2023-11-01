@@ -22,26 +22,35 @@
   <form method="post" action="../controllers/loginCheck.php">
     <fieldset>
       <legend><b>LOGIN</b></legend>
-      <table>
-        <tr>
-          <td>User ID </td>
-          <td><input type="text" name="userid" value="" ></td>
-        </tr>
-        <tr>
-          <td>Password </td>
-          <td><input type="password" name="password" value="" ></td>
-      </table>
-      <hr>
-      <table>
-        <tr>
-          <td>
-          <td><input type="submit" name="btn" value="Login"></td>
-          </td>
-          <td><a href="register.php">Register</a></td>
-        </tr>
-      </table>
+     
+          User ID<br/>
+          <input type="text" name="userid" value="" ><br/>
+       
+          Password<br/>
+          <input type="password" name="password" value="" ><br/>
+  
+          <hr/>
+          <input type="submit" name="btn" value="Login"></td>
+          <a href="register.php">Register</a></td>
+      
     </fieldset>
   </form>
 </body>
 
 </html>
+
+
+<?php
+
+session_start();
+
+if(isset($_SESSION['message'])){
+	if($_SESSION['message'] = "fail"){
+		echo "User not exists";
+	
+	}
+
+	unset($_SESSION['message']);
+}
+
+?>
