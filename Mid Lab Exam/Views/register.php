@@ -44,3 +44,17 @@
     </form>
     </body>
 </html>
+
+
+
+<?php
+
+if(isset($_SESSION['message'])){
+	if($_SESSION['message'] = "fail"){
+		echo "User already exists";
+	}
+    
+	unset($_SESSION['message']);
+}
+
+?>
